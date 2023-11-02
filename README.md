@@ -14,7 +14,7 @@ Overview
 * Main.scala contains functionality for random walker algorithm
   * Recreates orig graph and perturbed graph created by [NetGameSim](https://github.com/0x1DOCD00D/NetGameSim) and performs simrank algorithm
   * Creates GraphX graph from input file and performs parallel random walks
-  * Random walk executed until an attackable node is found based on simrank and valuableData property
+  * Random walk executed until an attackable node is found based on simrank and valuableData property (valuableDataProbability = 0.25d)
 
  Running Main should give log entries that look something like this:
  ```14:21:51.578 [main] INFO org.apache.spark.SparkContext -- Successfully stopped SparkContext
