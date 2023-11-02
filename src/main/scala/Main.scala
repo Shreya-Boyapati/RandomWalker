@@ -71,6 +71,11 @@ object Main {
     else {
       val neighbors = new ListBuffer[String]() // create list of neighbors
       nodesList.foreach(x => if (x.split(" ").head == node) neighbors += x.substring(x.lastIndexOf(" ") + 1))
+
+      if (neighbors.isEmpty) {
+        return "No path possible"
+      }
+      
       val nextNode = neighbors(random.nextInt(neighbors.length)).split(" ").head
       randomWalker(nextNode, nodesList, modifiedList, valueable)
     }
