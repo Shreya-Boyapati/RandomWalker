@@ -12,23 +12,11 @@ class attackNode extends AnyFunSuite {
   logger.info("Checks that random walker function attacks a node")
 
   test("attacknode") {
-    val conf = new SparkConf().setAppName("RandomWalksApp").setMaster("local[4]")
-    val sc = new SparkContext(conf)
-
-    val graph = GraphLoader.edgeListFile(sc, "/Users/shreyaboyapati/Downloads/test.txt")
-
-    val neighbors: RDD[String] =
-      graph.triplets.map(triplet =>
-        triplet.srcId + " maps to " + triplet.dstId)
-
-    val arr = neighbors.collect()
     val node = "6"
     val valuable = Array("4", "6", "7")
     val lst = ListBuffer("1", "2", "3")
 
-    sc.stop()
-
-    val result = Main.randomWalker(node, arr, lst, valuable)
-    assert(result == "Attacked!")
+    val result = Main.shouldIAttack(node, lst, valuable)
+    assert(result)
   }
 }
