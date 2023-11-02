@@ -36,5 +36,22 @@ Overview
   * shardsFile - first file created by graphGenerator
   * graphFile - second file created by graphGenerator
  
-### The filepaths in application.conf MUST BE UPDATED or the program will not function
-The files used are given here as x and y
+  The files currently used are given here as input.txt and input2.txt in src/main/resources/
+
+Installing, Compiling and Running random walker 
+===
+* To build from the command line [SBT](https://www.scala-sbt.org/release/docs/Setup.html), [Scala](https://www.scala-lang.org/download/) and a [JDK/JVM](https://docs.oracle.com/en/java/javase/) should be installed and configured
+* Once all prerequisites are met, clone [hw2](https://github.com/Shreya-Boyapati/hw2/tree/main) using the command ```git clone```;
+* Once the repository is cloned, assuming its local path is the root directory ```/path/to/the/cloned/hw2``` open a terminal window and switch to the directory ```cd /path/to/the/cloned/hw2```;
+* Build and run the project using the command ```sbt clean compile run```
+* Alternatively, you can load the project into IntelliJ and compile and run it using the main entry point in [Main.scala](src/main/scala/Main.scala);
+* You should make sure that the Java version that is used to compile this project matches the JVM version that is used to run the generated program jar from the command line, otherwise you may receive an error.
+
+**Testing**
+===
+Testing on mySimRank was done using [Scalatest](https://github.com/scalatest/) dependency. Tests can be found in src/tests/scala
+    1. addNodes
+    2. attackNode
+    3. equalGraphs
+    4. removeNodes
+    5. shouldAttack
