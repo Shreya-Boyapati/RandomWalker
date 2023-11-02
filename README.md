@@ -43,7 +43,7 @@ Configuration
   * shardsFile - first file created by graphGenerator
   * graphFile - second file created by graphGenerator
  
-  The files currently used are given here as input.txt and input2.txt in src/main/resources/
+  The files currently used are given here as [input.txt](https://github.com/Shreya-Boyapati/hw2/blob/main/src/main/resources/input.txt) and [input2.txt](https://github.com/Shreya-Boyapati/hw2/blob/main/src/main/resources/input2.txt) in src/main/resources/
 
 Installing, Compiling and Running random walker 
 ---
@@ -57,8 +57,8 @@ Installing, Compiling and Running random walker
 Testing
 ---
 Testing on mySimRank was done using [Scalatest](https://github.com/scalatest/) dependency. Tests can be found in src/tests/scala
-    1. addNodes
-    2. attackNode
-    3. equalGraphs
-    4. removeNodes
-    5. shouldAttack
+  1. addNodes
+  2. attackNode
+  3. equalGraphs
+  4. removeNodes
+  5. shouldAttack
