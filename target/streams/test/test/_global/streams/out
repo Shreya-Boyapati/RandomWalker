@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(addNodes, org.scalatest.tools.Framework$$anon$1@4a5620be, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(equalGraphs, org.scalatest.tools.Framework$$anon$1@4a5620be, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(shouldAttack, org.scalatest.tools.Framework$$anon$1@4a5620be, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(removeNodes, org.scalatest.tools.Framework$$anon$1@4a5620be, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(attackNode, org.scalatest.tools.Framework$$anon$1@4a5620be, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mshouldAttack:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- shouldattack[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mremoveNodes:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- removenodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mequalGraphs:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testEqualSimrank[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32maddNodes:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- addnodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mattackNode:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- attacknode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 600 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	attackNode[0m
+[0m[[0m[0mdebug[0m] [0m[0m	addNodes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removeNodes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shouldAttack[0m
+[0m[[0m[0mdebug[0m] [0m[0m	equalGraphs[0m
