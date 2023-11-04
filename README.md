@@ -51,7 +51,7 @@ Installing, Compiling and Running random walker
 * Once all prerequisites are met, clone [hw2](https://github.com/Shreya-Boyapati/hw2/tree/main) using the command ```git clone```;
 * Once the repository is cloned, assuming its local path is the root directory ```/path/to/the/cloned/hw2``` open a terminal window and switch to the directory ```cd /path/to/the/cloned/hw2```;
 * Build and run the project using the command ```sbt clean compile run```
-* Alternatively, you can load the project into IntelliJ and compile and run it using the main entry point in [Main.scala](src/main/scala/Main.scala);
+* Alternatively, you can load the project into IntelliJ and compile and run it using the main entry point in [Main.scala](src/main/scala/Main.scala). Make sure it is loaded as an sbt project.
 * You should make sure that the Java version that is used to compile this project matches the JVM version that is used to run the generated program jar from the command line, otherwise you may receive an error.
 
 Testing
